@@ -1,0 +1,81 @@
+
+
+ h2 {
+	color: black;
+	text-align: center;
+}
+
+
+.navbar { background-color: #E0A9C1;
+	margin-bottom: 100px;
+
+
+}
+
+.display-4   {
+
+	color: black;
+}
+
+.lead {
+	color: black;
+}
+
+.btn   {
+	background-color: black;
+	outline-color: black;
+}
+
+.jumbotron { 
+
+	background-color: #510026;
+    background-image: url(1233.png);
+    background-size: cover;
+	min-width: 1000px;
+	min-height: 500px;
+	position:center;
+}
+
+.btn  {
+
+	margin-top: 100px;
+}
+
+
+li {
+	list-style: none;
+	display: inline-block;
+	margin: 5px;
+}
+
+p 
+{    font-size: 20px;
+	text-align:  justify;
+	font-family: Georgia;
+	color: #231A20;
+	margin: 20px;
+	position: static;
+
+}	
+img {
+	margin-right: 50px;
+	float: left;}
+
+
+	div {
+
+  display: cover;
+  position: relative;
+}
+
+	body::after{
+  content: "";
+  background-color:#510026;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
